@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i');
+/*font-family: 'Lato', sans-serif;*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i');
+/*font-family: 'Roboto', sans-serif;*/
+body{
+  background: rgb(149, 149, 149);
+}
+
+.container{
+  background: white;
+  width: 350px;
+  height: 760px;
+  margin:120px 40.8%;
+  box-shadow: 2px 2px 14px 2px rgba(0, 0, 0, 0.49);
+}
+
+.clockAndBattery{
+  background: rgb(236, 234, 234);
+height: 20px;
+}
+
+.battery{
+  height: 7px;
+  width:18px;
+  background: rgb(110, 231, 169);
+  border-radius: 10px;
+  border:1.5px solid black;
+  float: right;
+  margin:-15px 5px;
+}
+
+img[alt="profilePic"]{
+  border-radius: 120px;
+  border:0.5px solid rgba(0, 0, 0, 0.47);
+  margin:20px 18px;
+  cursor: pointer;
+}
+
+img[alt="plusBtn"]{
+  margin:19px -40px;
+    cursor: pointer;
+    border:1px solid white;
+    border-radius: 10px;
+}
+
+img[alt="storyArchve"]{
+  margin:-35px 50px;
+  float: right;
+  cursor: pointer;
+}
+
+img[alt="menuIcon"]{
+  float: right;
+  margin: -34px 10px;
+  cursor: pointer;
+}
+
+.settingBar{
+  height: 35px;
+  border-bottom:0.5px solid rgba(0, 0, 0, 0.47);
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    margin:-27px 270px;
+    float: right;
+}
+
+.followersAndPost{
+  width: 150px;
+  float: right;
+  margin: 22px 50px;
+  word-spacing: 34px;
+  font-size: 16px;
+  font-family: 'Lato', sans-serif;
+}
+
+strong{
+  font-size:17px;
+  }
+
+#underText{
+font-size: 14px;
+display: inline-block;
+margin:0px -12px;
+color: gray;
+font-family: 'Lato', sans-serif;
+}
+
+.description{
+  margin: 60px 20px;
+  width:290px;
+}
+
+.postAndtagged{
+  margin:36px 0;
+  border-top: 1px solid rgba(113, 113, 113, 0.51);
+  border-bottom: 1px solid rgba(113, 113, 113, 0.51);
+  height: 60px;
+}
+
+.lockScreen{
+  background:rgb(255, 255, 255);
+  height: 735px;
+  width: 350px;
+  margin:-860px 40.45%;
+  font-style: normal;
+  position: absolute;
+
+}
+
+.firstLine{
+  width:90px; height:100px;
+  -moz-border-radius: 150px 0 0 150px;
+     border-radius: 150px 20px 0 150px;
+     float: left;
+     border: solid 2px rgb(143, 143, 143);
+   border-color: rgb(143, 143, 143) transparent rgb(143, 143, 143)  rgb(143, 143, 143);
+   transform: rotate(90deg);
+   margin:0px 15px;
+ }
+
+.scndLine{
+  width:60px; height:80px;
+  -moz-border-radius: 150px 0 0 150px;
+     border-radius: 150px 20px 0 150px;
+     float: left;
+     border: solid 2px rgb(143, 143, 143);
+   border-color: transparent transparent rgb(143, 143, 143)  rgb(143, 143, 143);
+   transform: rotate(88deg);
+   margin:-95px 30px;
+}
+
+.thirdLine{
+  width:50px; height:60px;
+  -moz-border-radius: 150px 0 0 150px;
+     border-radius: 150px 20px 0 150px;
+     float: left;
+     border: solid 2px rgb(143, 143, 143);
+   border-color: rgb(143, 143, 143) transparent transparent  transparent;
+   transform: rotate(90deg);
+   margin:-84px 44px;
+}
+
+.fourthLine{
+  width:40px; height:60px;
+  -moz-border-radius: 150px 0 0 150px;
+     border-radius: 150px 20px 0 150px;
+     float: left;
+     border: solid 2px rgb(143, 143, 143);
+   border-color: rgb(143, 143, 143) transparent transparent rgb(143, 143, 143);
+   transform: rotate(90deg);
+   margin:-82.5px 40px;
+}
+
+.fifthLine{
+  width:44px; height:55px;
+  -moz-border-radius: 150px 0 0 150px;
+     border-radius: 150px 20px 0 150px;
+     float: left;
+     border: solid 2px rgb(143, 143, 143);
+   border-color: transparent transparent rgb(143, 143, 143) transparent;
+   transform: rotate(88deg);
+   margin:-75px 34px;
+}
+
+
+.sixthLine{
+  width:40px; height:45px;
+  -moz-border-radius: 150px 0 0 150px;
+     border-radius: 150px 20px 0 150px;
+     float: left;
+     border: solid 2px rgb(143, 143, 143);
+   border-color: rgb(143, 143, 143)transparent rgb(143, 143, 143)  rgb(143, 143, 143);
+   transform: rotate(88deg);
+   margin:-63px 39px;
+}
+
+.seventhLine{
+  width:24px; height:28px;
+  -moz-border-radius: 150px 0 0 150px;
+     border-radius: 150px 20px 0 150px;
+     float: left;
+     border: solid 2px rgb(143, 143, 143);
+   border-color: rgb(143, 143, 143) transparent rgb(143, 143, 143)  rgb(143, 143, 143);
+   transform: rotate(88deg);
+   margin:-48px 47px;
+}
+
+
+
+
+.Wave{
+  width:114px; height:138px;
+      border-radius: 110px 120px 120px 110px;
+     float: left;
+     border: solid 8px rgb(143, 143, 143);
+   border-color: transparent;
+  transform: rotate(90deg);
+  margin:-365px 875px;
+  animation-name: rotation;
+  animation-iteration-count: 2s;
+  animation-duration: 2s;
+  display:none;
+}
+
+
+
+@keyframes rotation {
+from{transform: rotate(90deg); border-color: red transparent red;}
+to{transform: rotate(450deg); border-color: green transparent green;}
+
+}
+
+@media screen and (max-width:1600px){
+  .lockScreen{
+    margin:-860px 40.35%;
+  }
+  
+  .Wave{
+  margin:-365px 47.5%; 
+}
+}
+@media screen and (max-width:1366px){
+  .Wave{
+  margin:-365px 48.7%; 
+}
+  
+}
+
+@media screen and (max-width:640px){
+  .lockScreen{
+    margin:-770px 20.35%;
+    height:720px;
+  }
+
+  .container{
+    background: white;
+    width: 350px;
+    height: 740px;
+    margin:60px 20.9%;
+    box-shadow: 2px 2px 14px 2px rgba(0, 0, 0, 0.49);
+  }
+  
+   .Wave{
+  margin:-280px 38%; 
+}
+  
+}
+
+
+@media screen and (max-width:480px){
+  .lockScreen{
+    margin:-770px 8.55%;
+  }
+
+  .container{
+    background: white;
+    width: 350px;
+    height: 760px;
+    margin:40px 8.9%;
+    box-shadow: 2px 2px 14px 2px rgba(0, 0, 0, 0.49);
+  }
+  
+    .Wave{
+  margin:-275px 32.5%; 
+}
+}
+
+@media screen and (max-width:410px){
+  .lockScreen{
+    margin:-770px 2.75%;
+  }
+
+  .container{
+    background: white;
+    width: 350px;
+    height: 760px;
+    margin:40px 2.9%;
+    box-shadow: 2px 2px 14px 2px rgba(0, 0, 0, 0.49);
+  }
+  
+    .Wave{
+  margin:-275px 31.5%; 
+}
+}
